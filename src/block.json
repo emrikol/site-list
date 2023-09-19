@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "emrikol/site-list",
+	"version": "1.0.0",
+	"title": "Multisite Site List",
+	"category": "widgets",
+	"icon": "admin-multisite",
+	"description": "List all sites in a multisite network.",
+	"keywords": ["multisite", "sites", "list"],
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "site-list",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}
